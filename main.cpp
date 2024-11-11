@@ -157,6 +157,16 @@ public:
         orderID = ++orderCounter;
     }
 
+    Order& operator=(const Order& other) {
+        if (this != &other) {
+            cake = other.cake;
+            DateOfDelivery = other.DateOfDelivery;
+            payment = other.payment;
+            orderID = ++orderCounter;
+        }
+        return *this;
+    }
+
     [[nodiscard]] int getOrderID() const {
         return orderID;
     }
