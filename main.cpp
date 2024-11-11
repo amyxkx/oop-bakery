@@ -139,24 +139,6 @@ public:
     }
 };
 
-
-class Cake {
-
-    CakeDetails details;
-
-public:
-    explicit Cake(const CakeDetails& custom) : details(custom) {}
-
-    [[nodiscard]]const CakeDetails& getCakeDetails() const { return details; }
-
-    friend std::ostream& operator<<(std::ostream& os, const Cake& cake) {
-        os << cake.details; // This will now use CakeDetails's overloaded operator<<
-        return os;
-    }
-};
-
-
-
 class Order {
     int orderID;
     static int orderCounter;
@@ -165,6 +147,11 @@ class Order {
     std::string payment;
 
 public:
+    Order(const Order& other)
+       : cake(other.cake), DateOfDelivery(other.DateOfDelivery), payment(other.payment) {
+        orderID = ++orderCounter;
+    }
+
     Order(const CakeDetails& ck, std::string Delivery, std::string pay)
     : cake(ck), DateOfDelivery(std::move(Delivery)), payment(std::move(pay)) {
         orderID = ++orderCounter;
