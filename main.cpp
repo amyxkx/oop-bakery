@@ -410,7 +410,8 @@ int main() {
             redVelvetOrnaments, 2, 5, 3.0f, 130, false, false)
     };
 
-    Client client("John Doe", "123-456-789", "123 Cake St, Sweet City", "john@example.com", Order(cakes[0], "2024-12-25", "Credit Card"));
+    Order order(cakes[0], "12-12", "Cash on Delivery");
+    Client client(order, "Andrei", "0777895645", "str 123 Bucuresti", "andrei@email.com");
 
     client.placeOrder(cakes);
 
