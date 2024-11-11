@@ -6,6 +6,7 @@
 #include <chrono>
 #include <thread>
 
+
 void clearScreen();
 
 class Ornament {
@@ -198,15 +199,15 @@ public:
 
 class Client {
 
+    Order order;
     std::string name;
     std::string phoneNumber;
     std::string OrderAddress;
     std::string EmailAddress;
-    Order order;
 
 public:
-    Client(std::string nm, std::string phone, std::string adrs, std::string email, const Order &ord)
-    : name(std::move(nm)), phoneNumber(std::move(phone)), OrderAddress(std::move(adrs)), EmailAddress(std::move(email)), order(ord) {}
+    Client( const Order &ord, std::string nm, std::string phone, std::string adrs, std::string email)
+    : order(ord), name(std::move(nm)), phoneNumber(std::move(phone)), OrderAddress(std::move(adrs)), EmailAddress(std::move(email)) {}
 
     void placeOrder(const std::vector<CakeDetails>& cakes) {
         std::cout << "*********************************************************\n"
