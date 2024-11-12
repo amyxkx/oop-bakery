@@ -1,7 +1,7 @@
 # Sweet Spell Bakery
 
- Descoperă magia dulciurilor noastre magice chiar din confortul casei tale! Această aplicație te ajută să comanzi rapid și ușor delicii proaspete, realizate cu măiestrie și pasiune de cofetarii de la Sweet Spell Bakery. Fie că visezi la o prăjitură fină, un tort pentru o ocazie specială sau la o colecție de deserturi unice, Sweet Spell Bakery aduce în mâinile tale o gamă variată de opțiuni, toate pregătite cu ingrediente de cea mai înaltă calitate. Din doar câteva clickuri, poți explora meniul fermecat al cofetăriei, alege aromele care îți încântă papilele și plasa comanda oricând și oriunde.
-  Comandă și descoperă vrăjile noastre dulci! Îți promitem că, după prima lingură, te vei simți cu adevărat "under the sweet spell"!
+ Descoperă magia dulciurilor noastre fermecate chiar din confortul casei tale! Această aplicație te ajută să comanzi rapid și ușor delicii proaspete, realizate cu măiestrie și pasiune de către cofetarii de la Sweet Spell Bakery. Fie că visezi la o prăjitură fină, un tort pentru o ocazie specială sau la o colecție de deserturi unice, Sweet Spell Bakery aduce în mâinile tale o gamă variată de opțiuni, toate pregătite cu ingrediente de cea mai înaltă calitate. Din doar câteva clickuri, poți explora meniul magic al cofetăriei, alege aromele care te încântă și plasa comanda oricând și oriunde.
+ Intră acum pe aplicație și descoperă vrăjile noastre dulci plasând o comandă, iar noi îți promitem că, după prima lingură, te vei simți cu adevărat "under the sweet spell"!
 
 ### Important!
 Aveți voie cu cod generat de modele de limbaj la care nu ați contribuit semnificativ doar în folder-ul `generated`.
